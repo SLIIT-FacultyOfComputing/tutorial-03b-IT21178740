@@ -19,3 +19,10 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+void input(int &len,int &wth){
+  cout<<"enter length : ";
+  cin>>len;
+  cout<<"enter width : ";
+  cin>>wth;
+}
+/*first time i didn't get the output and after i used "&" notation infront of the "wth" and "len" i got the answer*/
